@@ -3,7 +3,7 @@ import re
 
 st.set_page_config(page_title="Password-Strength App", page_icon="🔐", layout="centered")
 
-st.title("🔐 Password Strength Checker")
+st.title("🔐 Password Strength Meter")
 
 name = st.text_input("What is Your Name?")
 if name:
